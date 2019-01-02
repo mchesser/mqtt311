@@ -8,5 +8,5 @@ license = "MIT"
 
 [dependencies]
 byteorder = "1"
-failure = "0.1"
+failure = { version = "0.1", default-features = false, features = ["derive"] }
 derive_more = "0.13"
